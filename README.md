@@ -29,7 +29,7 @@ Depending on your extension you might not need both. If this is the case, remove
 
 If you need multiple content scripts, add them in `manifest.json`, create a file in `src/js` and add a entry point in `config/webpack.config.js`.
 
-The build system comes with jQuery and lodash preloaded. If you need more third party scripts, install them via npm and add them to the `ProvidePlugin` options in `config/webpack.config.js`.
+The build system comes with `jQuery` and `lodash` preloaded. If you need more third party scripts, install them via npm and add them to the `ProvidePlugin` options in `config/webpack.config.js`.
 
 ## Running
 
