@@ -1,0 +1,45 @@
+{
+  "name": "chrome-extension-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate to kickstart Chrome extension development.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voidberg/chrome-extension-boilerplate.git"
+  },
+  "author": "Alexandru Badiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voidberg/chrome-extension-boilerplate/issues"
+  },
+  "homepage": "https://github.com/voidberg/chrome-extension-boilerplate",
+  "devDependencies": {
+    "autoprefixer-loader": "^1.2.0",
+    "babel-core": "^5.2.11",
+    "babel-eslint": "^3.0.1",
+    "babel-loader": "^5.0.0",
+    "crx": "^3.0.2",
+    "css-loader": "^0.12.0",
+    "file-loader": "^0.8.1",
+    "gulp": "^3.8.11",
+    "gulp-bump": "^0.3.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-eslint": "^0.11.1",
+    "gulp-replace": "^0.5.3",
+    "gutil": "^1.6.4",
+    "jquery": "^2.1.4",
+    "lodash": "^3.8.0",
+    "mkdirp": "^0.5.1",
+    "mutation-summary": "0.0.0",
+    "node-sass": "^2.1.1",
+    "raw-loader": "^0.5.1",
+    "restful.js": "^0.6.1",
+    "run-sequence": "^1.1.0",
+    "sass-loader": "^0.6.0",
+    "style-loader": "^0.12.1",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.8.11"
+  }
+}

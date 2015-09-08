@@ -1,0 +1,53 @@
+{
+  "name": "chrome-extension-boilerplate",
+  "description": "A boilerplate to kickstart Chrome extension development.",
+  "version": "0.0.1",
+  "icons": {
+    "16": "assets/icon_16x16.png",
+    "32": "assets/icon_32x32.png",
+    "48": "assets/icon_48x48.png",
+    "128": "assets/icon_128x128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "cookies",
+    "*://*.example.com/"
+  ],
+  "background": {
+    "scripts": [
+      "common.js",
+      "reload.js",
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Simple example.",
+    "default_icon": {
+      "19": "assets/icon_19x19.png",
+      "38": "assets/icon_38x38.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.example.com/*",
+        "https://*.example.com/*"
+      ],
+      "css": [
+        "css/extension.css"
+      ],
+      "js": [
+        "common.js",
+        "client.js"
+      ]
+    }
+  ],
+  "manifest_version": 2,
+  "web_accessible_resources": [
+    "assets/icon_38x38.png",
+    "assets/icon_19x19.png"
+  ]
+}
