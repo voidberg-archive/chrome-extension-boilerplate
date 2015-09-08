@@ -48,3 +48,9 @@ The extension will automatically reload on code changes.
 * Add version bumping.
 * Add SASS.
 * Remove live reloading code from distribution build.
+ 
+## License
+
+Copyright (c) 2015 Alexandru Badiu.
+
+Licensed under the MIT license.
