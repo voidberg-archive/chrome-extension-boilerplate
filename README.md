@@ -21,9 +21,9 @@ Edit `manifest.json` and update the `name` and `description`. Update your icons 
 
 The build system generates three files:
 
-* common.js - Common code shared across the client script and the background script.
-* client.js - The client script.
-* background.js - The background script.
+* `common.js` - Common code shared across the client script and the background script.
+* `client.js` - The client script.
+* `background.js` - The background script.
 
 Depending on your extension you might not need both. If this is the case, remove the entry point from `config/webpack.config.js`, the settings from `manifest.json` and the file from `src/js`.
 
