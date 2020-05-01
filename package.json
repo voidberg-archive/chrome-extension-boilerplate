@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "A boilerplate to kickstart Chrome extension development.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,8 @@
   "homepage": "https://github.com/voidberg/chrome-extension-boilerplate",
   "dependencies": {
     "jquery": "^3.0.0",
-    "lodash": "^4.17.5"
+    "lodash": "^4.17.5",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "autoprefixer-loader": "^1.2.0",
@@ -43,5 +46,6 @@
     "style-loader": "^0.12.1",
     "url-loader": "^0.5.5",
     "webpack": "^1.8.11"
-  }
+  },
+  "snyk": true
 }
