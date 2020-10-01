@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 # Chrome Extension Boilerplate
 
 A boilerplate to kickstart Chrome extension development.
